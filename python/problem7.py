@@ -17,7 +17,7 @@ def evaluar_empleado(puntuacion: float):
     elif puntuacion >= 0.6:
         return "Meritorio", int(SALARIO_BASE * puntuacion)
     else:
-        return "Puntuación invalida", 0
+        return "Puntuacion invalida", 0
 
 
 if __name__ == "__main__":
